@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { months } from '../birthdays';
 
 @Component({
-  selector: 'app-month-view',
+  selector: 'month',
   templateUrl: './month-view.component.html',
   styleUrls: ['./month-view.component.css']
 })
