@@ -20,12 +20,17 @@ app-top-bar {
   display: flex;
   background-color: #141414;
   padding: 12px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 app-top-bar button {
+  display: flex;
   font-size: 12px;
-  height: 4em;
-  
+  width: 14em;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
 }
 
 app-top-bar h1 {
@@ -36,7 +41,8 @@ app-top-bar h1 {
 app-months {
   display: flex;
   flex-flow: row wrap;
-  align-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
   justify-content: center;
   padding: 3px;
 }
@@ -45,7 +51,7 @@ button {
   display: flex;
   padding: 24px;
   margin: 3px;
-  width: 12em;
+  /*width: 12em;*/
   align-items: center;
   justify-content: center;
   background-color: #cf3030;
