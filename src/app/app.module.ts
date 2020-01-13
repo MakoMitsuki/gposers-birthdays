@@ -18,7 +18,7 @@ import { MonthViewComponent } from './month-view/month-view.component';
     FormsModule,
     RouterModule.forRoot([
     { path: '', component: MonthsComponent },
-    { path: 'app-month-view/:index', component: MonthViewComponent},
+    { path: 'app-month-view/:i', component: MonthViewComponent},
   ])],
   declarations: [
     AppComponent, TopBarComponent, MonthsComponent, MonthViewComponent
