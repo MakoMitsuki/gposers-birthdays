@@ -1,0 +1,1 @@
+export const fadeAnimation = trigger('routeAnimations', [transition(''), []]);
