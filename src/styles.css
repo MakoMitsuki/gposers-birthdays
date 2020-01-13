@@ -16,6 +16,8 @@ a {
   text-decoration: none;
 }
 
+/* TOP BAR */
+
 app-top-bar {
   display: flex;
   background-color: #141414;
@@ -31,6 +33,13 @@ app-top-bar button {
   align-items: center;
   justify-content: center;
   padding: 12px;
+  opacity: 1;
+}
+
+app-top-bar button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
 }
 
 app-top-bar h1 {
@@ -38,13 +47,23 @@ app-top-bar h1 {
   color: white;
 }
 
-app-months {
+/* APP MONTHS */
+
+app-months{
   display: flex;
   flex-flow: row wrap;
   align-content: stretch;
   align-items: stretch;
   justify-content: center;
   padding: 3px;
+}
+
+/* APP MONTH VIEW */
+
+app-month-view {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
 }
 
 button {
@@ -62,8 +81,14 @@ button {
   font-weight: 600;
   font-size: 24px;
   cursor: pointer;
+  opacity: 0.9;
+  transition: 0.3s;
 }
 
 button:hover {
-  opacity: 0.8;
+  background-color: transparent;
+  -webkit-box-shadow:inset 0px 0px 0px 2px#141414;
+    -moz-box-shadow:inset 0px 0px 0px 2px #141414;
+    box-shadow:inset 0px 0px 0px 2px #141414;
+  color:#141414;
 }
