@@ -22,6 +22,12 @@ app-top-bar {
   padding: 12px;
 }
 
+app-top-bar button {
+  font-size: 12px;
+  height: 4em;
+  
+}
+
 app-top-bar h1 {
   font-style: bold;
   color: white;
