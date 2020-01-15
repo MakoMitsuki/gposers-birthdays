@@ -1,11 +1,28 @@
 export const months = [
   {
     id: 1,
-    name: 'January'
+    name: 'January',
+    bdays: [
+      {
+        day: 10,
+        name: 'Luke Castro',
+        world: 'Lamia',
+        deity: 'Menphina the Lover',
+        discord: 'Castro#2653'
+      },
+      {
+        day: 27,
+        name: 'Kurumu Kozono',
+        world: 'Zodiark',
+        deity: 'Menphina the Lover',
+        discord: 'LadyCharlote#0610'
+      }
+    ]
   },
   {
     id: 2,
-    name: 'February'
+    name: 'February',
+    bdays: []
   },
   {
     id: 3,
@@ -13,39 +30,48 @@ export const months = [
   },
   {
     id: 4,
-    name: 'April'
+    name: 'April',
+    bdays: []
   },
   {
     id: 5,
-    name: 'May'
+    name: 'May',
+    bdays: []
   },
   {
     id: 6,
-    name: 'June'
+    name: 'June',
+    bdays: []
   },
   {
     id: 7,
-    name: 'July'
+    name: 'July',
+    bdays: []
   },
   {
     id: 8,
-    name: 'August'
+    name: 'August',
+    bdays: []
   },
   {
     id: 9,
-    name: 'September'
+    name: 'September',
+    bdays: []
   },
   {
     id: 10,
-    name: 'October'
+    name: 'October',
+    bdays: []
   },
   {
     id: 11,
-    name: 'November'
+    name: 'November',
+    bdays: []
   },
   {
     id: 12,
-    name: 'December'
+    name: 'December',
+    bdays: []
   },
 
 ];
